@@ -10,11 +10,11 @@ const scale = 1.5,
   ctx = canvas.getContext("2d");
 
 //Render page
-const renderPage = (num) => {
+const renderPage = num => {
   pageIsRendering = true;
 
   //Get Page
-  pdfDoc.getPage(num).then((page) => {
+  pdfDoc.getPage(num).then(page => {
     //Set Scale
     const viewport = page.getViewport({ scale });
     canvas.height = viewport.height;
@@ -22,10 +22,10 @@ const renderPage = (num) => {
 
     const renderCtx = {
       canvasContext: ctx,
-      viewport,
+      viewport
     };
 
-    page.render({ renderCtx }).promise.then(() => {
+    page.render( renderCtx ).promise.then(() => {
       pageIsRendering = false;
 
       if (pageNumIsPending != null) {
