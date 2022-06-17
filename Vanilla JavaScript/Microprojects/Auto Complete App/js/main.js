@@ -11,7 +11,7 @@ const searchStates = async (searchText) => {
 
   if (searchText.length === 0) {
     matches = [];
-    console.log(matches);
+    list.innerHTML = '';
   } else {
     let matches = states.filter((state) => {
       const regex = new RegExp(`^${searchText}`, "gi");
@@ -19,7 +19,6 @@ const searchStates = async (searchText) => {
     });
     //Show results in html
 
-    console.log(matches);
     const html = matches
       .map(
         (match) =>
