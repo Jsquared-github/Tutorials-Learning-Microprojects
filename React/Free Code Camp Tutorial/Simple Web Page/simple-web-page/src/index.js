@@ -1,14 +1,8 @@
 import ReactDOM from 'react-dom'
-import Header from './components/Header'
-import Body from './components/Body'
-import Footer from './components/Footer'
-import './index.css'
+import App from './App'
+import './style.css'
 
 ReactDOM.render(
-    <div>
-        <Header />
-        <Body />
-        <Footer/>
-    </div>
-
-    , document.getElementById('root'))
+    <App />,
+    document.getElementById('root')
+)
