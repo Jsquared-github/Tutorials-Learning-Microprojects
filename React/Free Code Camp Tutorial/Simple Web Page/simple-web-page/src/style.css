@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans&display=swap");
 html,
 body {
   height: 100vh;
@@ -11,8 +11,8 @@ body {
 nav {
   display: flex;
   align-items: center;
-  padding: 0 1rem;
-  background-color: black;
+  padding: 1rem 1.5rem;
+  background-color: rgb(13, 15, 25);
 }
 .logo {
   width: 3rem;
@@ -31,9 +31,25 @@ nav {
 }
 
 .main-content {
-  margin: 5rem 2.5rem;
+  height: 100vh;
+  width: 100vw;
+  padding: 3rem 2.5rem;
+  background-color: rgb(33, 35, 44);
+  background-image: url('./images/content-image.png');
+  background-repeat: no-repeat;
+  background-position: top 25% right -25%;
+}
+.facts-title {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 3rem;
 }
 .facts > li {
+  color: white;
   margin-bottom: 1rem;
   font-size: 1.25rem;
+}
+.facts > li::marker{
+    font-size: xx-large;
+    color: rgb(93, 225, 255);
 }
