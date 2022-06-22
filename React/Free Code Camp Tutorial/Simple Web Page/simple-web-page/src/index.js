@@ -1,17 +1,14 @@
 import ReactDOM from 'react-dom'
-
-function MainContent() {
-    return(
-        <h1> I'm Learning React!</h1>
-    )
-}
+import Header from './components/Header'
+import Body from './components/Body'
+import Footer from './components/Footer'
+import './index.css'
 
 ReactDOM.render(
     <div>
-        <MainContent />
-    </div>,
-    document.getElementById('root')
-    )
+        <Header />
+        <Body />
+        <Footer/>
+    </div>
 
-
-
+    , document.getElementById('root'))
