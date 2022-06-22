@@ -1,7 +1,7 @@
 const Body = () => {
     return (
         <div className='main-content'>
-            <h1> Fun facts about React</h1>
+            <h1 className="facts-title"> Fun facts about React</h1>
             <ul className="facts">
                 <li>Was first released in 2013</li>
                 <li>Was originally created by Jordan Walke</li>
