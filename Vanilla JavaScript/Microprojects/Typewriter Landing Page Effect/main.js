@@ -1,5 +1,5 @@
 class TypeWriter {
-  constructor(txtElement, words, wait = 2500) {
+  constructor(txtElement, words, wait) {
     this.txtElement = txtElement;
     this.words = words;
     this.txt = "";
