@@ -14,5 +14,6 @@ result = filter(lambda n: n % 2 == 1, numbers)
 print(list(result))
 
 # reduce() calculates a value from a sequence; must be imported from functools standard library
+#   The function used on each element must take in two arguments => (total, value_combined_with_total)
 sum = reduce(lambda a, b: a + b, numbers)
 print(sum)
