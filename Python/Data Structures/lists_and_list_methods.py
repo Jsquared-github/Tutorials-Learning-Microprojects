@@ -1,4 +1,5 @@
 # Same concept as arrays; declared with []
+# To create a copy of a list, do => name = original_list[:]
 names = ['Josh', 'John', 'Jake', 'Jeff', 'Johnathon']
 print(names[0])
 
