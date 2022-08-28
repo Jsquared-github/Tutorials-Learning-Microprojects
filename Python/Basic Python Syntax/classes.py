@@ -12,11 +12,11 @@ class Dog:
         self.age = age
 
     def bark(self):
-        return "woof!"
+        return "Woof!"
 
 
 finn = Dog("Finn", 8)
-print(finn.name, finn.age, finn.bark())
+
 
 '''
 Inheritance is done in Python by doing => class name(name_of_class_to_inherit_from):
@@ -34,4 +34,3 @@ class Cat(Animal):
 
 
 biscuit = Cat()
-print(biscuit.meow(), biscuit.walk())
