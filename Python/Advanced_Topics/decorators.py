@@ -8,6 +8,7 @@ def before_after(func):
     print("after")
 
 # The decorator takes the function below it as a parameter
+#   or for funning same code on multiple functions
 
 
 @before_after
