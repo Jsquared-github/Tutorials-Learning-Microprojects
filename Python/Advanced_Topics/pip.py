@@ -2,3 +2,4 @@
 # To make pip installs global on windows, you must set up a virtual environment
 # To install a third party package, do -> pip install package_name
 # To upgrade a package, do -> pip install -U package_name
+# To get an overview of the package do pip show package_name
